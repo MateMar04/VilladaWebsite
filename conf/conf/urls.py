@@ -15,11 +15,13 @@ Including another URLconf
 """
 from confApp.views import (
     navbar_view,
+    carousel_view,
 )
 from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', navbar_view, name='navbar')
+    path('navbar/', navbar_view, name='navbar'),
+    path('carousel/', carousel_view, name='carousel')
 ]
