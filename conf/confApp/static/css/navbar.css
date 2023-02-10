@@ -1,0 +1,34 @@
+* {
+    font-family: Roboto;
+}
+
+
+.navbar {
+    background-color: #3572A1;
+
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.navbar-brand:hover {
+    color: #bebebe;
+}
+
+.nav-link:hover {
+    color: #bebebe;
+}
+
+.nav-link:focus {
+    color: #bebebe;
+}
