@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from confApp.views import (
+    navbar_view,
+)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', navbar_view, name='navbar')
 ]
